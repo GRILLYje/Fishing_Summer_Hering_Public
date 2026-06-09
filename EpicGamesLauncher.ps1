@@ -6,7 +6,7 @@ $ProgressPreference = "SilentlyContinue"
 
 Write-Host "Checking for updates (Summer)..." -ForegroundColor Cyan
 
-$apiUrl = "https://api.github.com/repos/GRILLYje/Fishing_Summer_Public/releases/latest"
+$apiUrl = "https://api.github.com/repos/GRILLYje/Fishing_Summer_Hering_Public/releases/latest"
 
 try {
     $releaseInfo = Invoke-RestMethod -Uri $apiUrl -Method Get
